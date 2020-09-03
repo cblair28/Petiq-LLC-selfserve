@@ -1,0 +1,14 @@
+@import '../../sass/_default.scss';
+
+/** @define {{name}} */
+
+// This is a default module template designed to speed up development
+// This file is intended to be heavily modified
+
+.{{name}}
+{
+  // Add custom styles here
+
+  // Generated scss from clipHtml script below
+  {{content}}
+}

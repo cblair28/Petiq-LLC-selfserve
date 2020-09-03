@@ -1,0 +1,3 @@
+// You shouldn't need to ever modify this file, its only purpose is to import bootstrap for local testing
+// Self serve pages load bootstrap by default, so you don't want to re-bundle bootstrap with your modules when compiling
+@import "bootstrap";

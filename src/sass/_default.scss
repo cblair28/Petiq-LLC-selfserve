@@ -1,0 +1,15 @@
+@import '../themes/theme.scss';
+@import 'common/variables.scss';
+@import 'Util/Spacing.scss';
+@import 'Util/UtilityMixins.scss';
+@import 'Util/UtilityLayout.scss';
+
+.sr-only
+{
+  @include sr-only();
+}
+
+.sr-only-focusable
+{
+  @include sr-only-focusable();
+}

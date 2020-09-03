@@ -1,0 +1,37 @@
+// WEBPACK IS SET UP TO STRIP OUT SINGLE LINE COMMENTS IN THIS JSON FILE
+// WEBPACK WILL ALSO STRIP TRAILING COMMAS ON OBJECTS
+// Note: There is a bug with SSP where the button radius gets set to zero if you use any defaults whatsoever.
+// So you'll have to provide a button radius here if you want to set any other defaults.
+{
+  "designDefaults": {
+  //   "colors": {
+  //     "primary": null, // hex color as STRING, e.g. "#ffffff"
+  //     "secondary": null, // hex color as STRING, e.g. "#ffffff"
+  //     "background": null // hex color as STRING, e.g. "#ffffff"
+  //   },
+  //   "headerFont": {
+  //     "fontFamily": null, // font name available in SSP as STRING, e.g. "Cabin"
+  //     "fontWeight": null, // font weight as NUMBER, e.g. 400
+  //     "color": null, // hex color as STRING, e.g. "#ffffff"
+  //     "textScale": null, // size as STRING, options: "small", "medium", "large"
+  //     "textTransform": null // transform as STRING, options: "uppercase", "lowercase", "capitalize"
+  //   },
+  //   "bodyFont": {
+  //     "fontFamily": null, // font name available in SSP as STRING, e.g. "Cabin"
+  //     "fontWeight": null, // font weight as NUMBER, e.g. 400
+  //     "color": null // hex color as STRING, e.g. "#ffffff"
+  //   },
+  //   "buttons": {
+  //     "padding": null, // size as STRING, options: "small", "medium", "large"
+  //     "radius": null, // radius in px as NUMBER, e.g. 16
+  //     "font": {
+  //       "fontFamily": null, // font name available in SSP as STRING, e.g. "Cabin"
+  //       "fontWeight": null, // font weight as NUMBER, e.g. 400
+  //       "textTransform": null // transform as STRING, options: "uppercase", "lowercase", "capitalize"
+  //     }
+  //   },
+  //   "other": {
+  //     "maxWidth": null // width in px as NUMBER, e.g. 1000
+  //   }
+  }
+}
