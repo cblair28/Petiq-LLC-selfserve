@@ -1,12 +1,325 @@
 {namespace modules}
 
+// This is a default module template designed to speed up development
+// This file is intended to be heavily modified
 // Unlike normal soy, you cannot call templates in templates. Only use the .Header template here
 
 /**
  * Header params
  */
 {template .Header}
-  <header class="Header">
-
-  </header>
+  // This html was generated from the clipHtml script
+  <div class="Header">
+    <header class="et-l et-l--header">
+      <div class="et_builder_inner_content et_pb_gutters2">
+        <div class="et_pb_with_border et_pb_section et_pb_section_0_tb_header et_pb_with_background et_section_regular">
+          <div class="et_pb_row et_pb_row_0_tb_header et_pb_row--with-menu" style="z-index: 3;">
+            <div class="et_pb_column et_pb_column_1_2 et_pb_column_0_tb_header  et_pb_css_mix_blend_mode_passthrough et_pb_column--with-menu">
+              <div class="et_pb_module et_pb_menu et_pb_menu_0_tb_header piq-nav-text et_pb_bg_layout_light  et_pb_text_align_left et_dropdown_animation_fade et_pb_menu--without-logo et_pb_menu--style-left_aligned">
+                <div class="et_pb_menu_inner_container clearfix">
+                  <div class="et_pb_menu__wrap">
+                    <div class="et_pb_menu__menu">
+                      <nav class="et-menu-nav">
+                        <ul id="menu-secondary-nav" class="et-menu nav">
+                          <li class="piq-opener popmake-229513 et_pb_menu_page_id-86 menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-86 pum-trigger" style="cursor: pointer;"><a href="https://vetiqpetcare.com/" aria-current="page">Request Pet Records</a></li>
+                          <li class="et_pb_menu_page_id-91 menu-item menu-item-type-custom menu-item-object-custom menu-item-91"><a href="https://vetiqpetcare.com/help-center/">Help Center</a></li>
+                          <li class="et_pb_menu_page_id-92 menu-item menu-item-type-custom menu-item-object-custom menu-item-92"><a href="https://vetiqpetcare.com/contact-us/">Contact Us</a></li>
+                        </ul>
+                      </nav>
+                    </div>
+                    <div class="et_mobile_nav_menu">
+                      <a href="https://vetiqpetcare.com/#" class="mobile_nav closed">
+                        <span class="mobile_menu_bar"></span>
+                        <ul id="mobile_menu1" class="et_mobile_menu">
+                          <li class="piq-opener popmake-229513 et_pb_menu_page_id-86 menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-86 et_first_mobile_item pum-trigger" style="cursor: pointer;"><a href="https://vetiqpetcare.com/" aria-current="page">Request Pet Records</a></li>
+                          <li class="et_pb_menu_page_id-91 menu-item menu-item-type-custom menu-item-object-custom menu-item-91"><a href="https://vetiqpetcare.com/help-center/">Help Center</a></li>
+                          <li class="et_pb_menu_page_id-92 menu-item menu-item-type-custom menu-item-object-custom menu-item-92"><a href="https://vetiqpetcare.com/contact-us/">Contact Us</a></li>
+                        </ul>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+     <!-- .et_pb_column -->
+            <div class="et_pb_column et_pb_column_1_2 et_pb_column_1_tb_header  et_pb_css_mix_blend_mode_passthrough et-last-child">
+              <div id="my-clinic-selector" class="et_pb_module et_pb_code et_pb_code_0_tb_header">
+                <div class="my-clinic-selector-container">
+                  <div class="my-clinic-header-link no-selected-clinic"><a href="https://vetiqpetcare.com/find-a-location">
+                      <div class="my-clinic-header-link-content"><img class="my-clinic-location-icon" src="data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMjAwIDIwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayI+CiAgICA8Y2xpcFBhdGggaWQ9ImEiPgogICAgICAgIDxwYXRoIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0ibTIzMjUuMzIgNjQ3Ljg0di01MS42aC0xNy4yMnYtMjAuNWgxNy4yMnYtMTYuMTZjMC0xNy41NSAxMC42OS0yNy4xIDI2LjI5LTI3LjFhMTQzLjg3IDE0My44NyAwIDAgMSAxNS43Ny44MXYxOC4zNGgtMTAuODNjLTguNDggMC0xMC4xMiA0LTEwLjEyIDEwdjE0LjEzaDE5LjE1bC0yLjYzIDIwLjVoLTE2LjUydjUxLjYiLz4KICAgIDwvY2xpcFBhdGg+CiAgICA8cGF0aCBkPSJtMTAwIDEuNzZhNzguODIgNzguODIgMCAwIDAgLTc4LjcyIDc4LjcyYzAgMjguMjUgMjMuMzMgNjUuNzUgNzEuMyAxMTQuNjRhMTAuMzggMTAuMzggMCAwIDAgMTQuODQgMGM0OC00OC44OSA3MS4zLTg2LjM5IDcxLjMtMTE0LjY0YTc4LjgxIDc4LjgxIDAgMCAwIC03OC43Mi03OC43MnptMCAxNzEuMTFjLTQ3LjY0LTUwLjE1LTU3LjkyLTc3Ljg3LTU3LjkyLTkyLjM5YTU3LjkyIDU3LjkyIDAgMCAxIDExNS44NCAwYzAgMTQuNTItMTAuMjggNDIuMjQtNTcuOTIgOTIuMzl6IiBmaWxsPSIjZjE2NjIzIi8+CiAgICA8Y2lyY2xlIGN4PSIxMDAiIGN5PSI4Mi40MyIgZmlsbD0iI2YxNjYyMyIgcj0iMjUuNzEiLz4KICAgIDxwYXRoIGQ9Im0yMzI1LjMyIDY0Ny44NHYtNTEuNmgtMTcuMjJ2LTIwLjVoMTcuMjJ2LTE2LjE2YzAtMTcuNTUgMTAuNjktMjcuMSAyNi4yOS0yNy4xYTE0My44NyAxNDMuODcgMCAwIDEgMTUuNzcuODF2MTguMzRoLTEwLjgzYy04LjQ4IDAtMTAuMTIgNC0xMC4xMiAxMHYxNC4xM2gxOS4xNWwtMi42MyAyMC41aC0xNi41MnY1MS42IiBmaWxsPSIjZmZmIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiLz4KICAgIDxnIGNsaXAtcGF0aD0idXJsKCNhKSI+CiAgICAgICAgPHBhdGggZD0ibS00NjMwLjk5LTM5ODguODZoOTUxNC44NXYzMDAzMS4yM2gtOTUxNC44NXoiIGZpbGw9IiNmZmYiLz4KICAgIDwvZz4KPC9zdmc+"><span style="display: inline-block; padding-right: 5px;">Find a Location Near You</span>
+                        <div class="my-clinic-expand-arrow"><svg viewBox="0 0 13.18 7.65">
+                            <path d="M0 1.06A1.06 1.06 0 011.8.31L6.59 5.1 11.38.31a1.07 1.07 0 011.5 0 1.06 1.06 0 010 1.49L7.34 7.34a1.06 1.06 0 01-.75.31 1 1 0 01-.74-.31L.31 1.8A1 1 0 010 1.06z" fill="#4779b3"></path>
+                          </svg></div>
+                      </div>
+                    </a></div>
+                </div>
+              </div>
+     <!-- .et_pb_code -->
+            </div>
+     <!-- .et_pb_column -->
+          </div>
+     <!-- .et_pb_row -->
+        </div>
+     <!-- .et_pb_section -->
+        <div class="et_pb_section et_pb_section_1_tb_header et_pb_with_background et_section_regular">
+          <div class="et_pb_row et_pb_row_1_tb_header piq-dropdown-mobile">
+            <div class="et_pb_column et_pb_column_4_4 et_pb_column_2_tb_header  et_pb_css_mix_blend_mode_passthrough et-last-child">
+              <div class="et_pb_module et_pb_text et_pb_text_0_tb_header  et_pb_text_align_center et_pb_bg_layout_light">
+                <div class="et_pb_text_inner">
+                  <ul class="piq-nav">
+                    <li class="piq-button-dropdown">
+                      <a href="javascript:void(0)" class="piq-dropdown-toggle">
+                        <p></p>
+                        <div style="display: flex; justify-content: center; align-items: center;"><img src="https://mk0vetiqpetcaredngye.kinstacdn.com/wp-content/uploads/2020/02/icon-offer.png" alt="offer" style="margin-right: 1em;"><strong>Current Promotions</strong><img src="https://mk0vetiqpetcaredngye.kinstacdn.com/wp-content/uploads/2020/02/arrow-down-white.png" alt="expand" style="margin-left: 1em;"></div>
+                      </a>
+                      <p><a href="javascript:void(0)" class="piq-dropdown-toggle"> </a></p>
+                      <ul class="piq-dropdown-menu">
+                        <li class="piq-dropdown-bg">
+                          <img src="https://mk0vetiqpetcaredngye.kinstacdn.com/wp-content/uploads/2020/03/arrow.png" alt="" class="wp-image-10163 aligncenter size-full piq-arrow">
+    
+                          <!--&#091;showmodule id="233774"&#093;-->
+    
+                          <!--
+    <p><a href="https://vetiqpetcare.com/current-promotions/" class="piq-carousel-link-more">View All Current Promotions <img loading="lazy" src="https://vetiqpetcare.com//wp-content/uploads/2020/03/arrow-right.svg" width="12" height="12" alt="" class="wp-image-10263 alignnone size-full piq-icon-arrow-right" srcset="https://mk0vetiqpetcaredngye.kinstacdn.com/wp-content/uploads//2020/03/arrow-right.svg 150w, https://mk0vetiqpetcaredngye.kinstacdn.com/wp-content/uploads//2020/03/arrow-right.svg 300w, https://mk0vetiqpetcaredngye.kinstacdn.com/wp-content/uploads//2020/03/arrow-right.svg 1024w, https://mk0vetiqpetcaredngye.kinstacdn.com/wp-content/uploads//2020/03/arrow-right.svg 1536w, https://mk0vetiqpetcaredngye.kinstacdn.com/wp-content/uploads//2020/03/arrow-right.svg 2048w, https://mk0vetiqpetcaredngye.kinstacdn.com/wp-content/uploads//2020/03/arrow-right.svg 40w" sizes="(max-width: 12px) 100vw, 12px" /></a></p>
+    -->
+                          <p></p>
+                          <h4 style="text-align:center">Please check back soon for savings and promotions.</h4>
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+     <!-- .et_pb_text -->
+            </div>
+     <!-- .et_pb_column -->
+          </div>
+     <!-- .et_pb_row -->
+        </div>
+     <!-- .et_pb_section -->
+        <div id="main-nav" class="et_pb_section et_pb_section_2_tb_header et_pb_with_background et_section_regular">
+          <div class="et_pb_row et_pb_row_2_tb_header">
+            <div class="et_pb_column et_pb_column_4_4 et_pb_column_3_tb_header zindeker  et_pb_css_mix_blend_mode_passthrough et-last-child">
+              <div class="et_pb_module et_pb_code et_pb_code_1_tb_header">
+                <div class="et_pb_code_inner">
+                  <table class="piq-headmenu1">
+                    <tbody>
+                      <tr>
+                        <td class="piq-menuside">
+    
+                          <!-- UberMenu [Configuration:main] [Theme Loc:] [Integration:api] -->
+                          <button class="ubermenu-responsive-toggle ubermenu-responsive-toggle-main ubermenu-skin-none ubermenu-loc- ubermenu-responsive-toggle-content-align-left ubermenu-responsive-toggle-align-left ubermenu-responsive-toggle-icon-only ubermenu-responsive-toggle-close-icon-times " tabindex="0" data-ubermenu-target="ubermenu-main-17"><i class="fas fa-bars"></i></button>
+                          <nav id="ubermenu-main-17" class="ubermenu ubermenu-main ubermenu-menu-17 ubermenu-responsive ubermenu-responsive-single-column ubermenu-responsive-single-column-subs ubermenu-responsive-980 ubermenu-responsive-collapse ubermenu-horizontal ubermenu-transition-slide ubermenu-trigger-hover_intent ubermenu-skin-none  ubermenu-bar-align-full ubermenu-items-align-auto ubermenu-bound ubermenu-sub-indicators ubermenu-retractors-responsive ubermenu-submenu-indicator-closes ubermenu-notouch">
+                            <ul id="ubermenu-nav-main-17" class="ubermenu-nav" data-title="Main Nav Staging">
+                              <li class="piq-menu-hider ubermenu-item ubermenu-item-type-post_type ubermenu-item-object-page ubermenu-item-home ubermenu-current-menu-item ubermenu-page_item ubermenu-page-item-9674 ubermenu-current_page_item ubermenu-item-233659 ubermenu-item-level-0 ubermenu-column ubermenu-column-auto"><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="https://vetiqpetcare.com/" tabindex="0"><span class="ubermenu-target-title ubermenu-target-text">Home</span></a></li>
+                              <li class="reduce-divider ubermenu-item ubermenu-item-type-custom ubermenu-item-object-custom ubermenu-item-has-children ubermenu-item-551 ubermenu-item-level-0 ubermenu-column ubermenu-column-auto ubermenu-has-submenu-drop ubermenu-has-submenu-mega"><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="https://vetiqpetcare.com/services-pricing/" tabindex="0"><span class="ubermenu-target-title ubermenu-target-text">Services &amp; Pricing</span><i class="ubermenu-sub-indicator fas fa-angle-down"></i><span class="ubermenu-sub-indicator-close"><i class="fas fa-times"></i></span></a>
+                                <ul class="ubermenu-submenu ubermenu-submenu-id-551 ubermenu-submenu-type-auto ubermenu-submenu-type-mega ubermenu-submenu-drop ubermenu-submenu-align-full_width">
+                                  <li class="ubermenu-item ubermenu-item-type-post_type ubermenu-item-object-page ubermenu-item-233361 ubermenu-item-auto ubermenu-item-header ubermenu-item-level-1 ubermenu-column ubermenu-column-auto"><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="https://vetiqpetcare.com/services-pricing/"><span class="ubermenu-target-title ubermenu-target-text">Individual Services</span></a></li>
+                                  <li class="ubermenu-item ubermenu-item-type-post_type ubermenu-item-object-page ubermenu-item-234060 ubermenu-item-auto ubermenu-item-header ubermenu-item-level-1 ubermenu-column ubermenu-column-auto"><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="https://vetiqpetcare.com/services-pricing/service-packages/"><span class="ubermenu-target-title ubermenu-target-text">Service Packages</span></a></li>
+                                  <li class="ubermenu-item ubermenu-item-type-post_type ubermenu-item-object-page ubermenu-item-232796 ubermenu-item-auto ubermenu-item-header ubermenu-item-level-1 ubermenu-column ubermenu-column-auto"><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="https://vetiqpetcare.com/services-pricing/current-promotions/"><span class="ubermenu-target-title ubermenu-target-text">Current Promotions</span></a></li>
+                                  <li class="ubermenu-item ubermenu-item-type-post_type ubermenu-item-object-page ubermenu-item-236392 ubermenu-item-auto ubermenu-item-header ubermenu-item-level-1 ubermenu-column ubermenu-column-auto"><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="https://vetiqpetcare.com/petiq-veterinary-help-line/"><span class="ubermenu-target-title ubermenu-target-text">Veterinary Help Line</span></a></li>
+                                </ul>
+                              </li>
+                              <li class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-custom ubermenu-item-has-children ubermenu-item-1329 ubermenu-item-level-0 ubermenu-column ubermenu-column-auto ubermenu-has-submenu-drop ubermenu-has-submenu-mega"><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="https://vetiqpetcare.com/about-us/" tabindex="0"><span class="ubermenu-target-title ubermenu-target-text">About Us</span><i class="ubermenu-sub-indicator fas fa-angle-down"></i><span class="ubermenu-sub-indicator-close"><i class="fas fa-times"></i></span></a>
+                                <ul class="ubermenu-submenu ubermenu-submenu-id-1329 ubermenu-submenu-type-auto ubermenu-submenu-type-mega ubermenu-submenu-drop ubermenu-submenu-align-full_width">
+                                  <li class="ubermenu-item ubermenu-item-type-post_type ubermenu-item-object-page ubermenu-item-232797 ubermenu-item-auto ubermenu-item-header ubermenu-item-level-1 ubermenu-column ubermenu-column-auto"><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="https://vetiqpetcare.com/about-us/"><span class="ubermenu-target-title ubermenu-target-text">Overview</span></a></li>
+                                  <li class="ubermenu-item ubermenu-item-type-post_type ubermenu-item-object-page ubermenu-item-232798 ubermenu-item-auto ubermenu-item-header ubermenu-item-level-1 ubermenu-column ubermenu-column-auto"><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="https://vetiqpetcare.com/about-us/standards-care/"><span class="ubermenu-target-title ubermenu-target-text">Our Standards of Care</span></a></li>
+                                  <li class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-custom ubermenu-item-236351 ubermenu-item-auto ubermenu-item-header ubermenu-item-level-1 ubermenu-column ubermenu-column-auto"><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="https://petiq.com/careers/career-opportunities/"><span class="ubermenu-target-title ubermenu-target-text">Careers</span></a></li>
+                                </ul>
+                              </li>
+                              <li class="reduce-divider remove-bullet ubermenu-item ubermenu-item-type-custom ubermenu-item-object-custom ubermenu-item-552 ubermenu-item-level-0 ubermenu-column ubermenu-column-auto"><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="https://vetiqpetcare.com/pet-articles/" tabindex="0"><span class="ubermenu-target-title ubermenu-target-text">Pet Articles</span></a></li>
+                              <li class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-custom ubermenu-item-has-children ubermenu-item-1627 ubermenu-item-level-0 ubermenu-column ubermenu-column-auto ubermenu-has-submenu-drop ubermenu-has-submenu-mega"><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="https://vetiqpetcare.com/shop-online/" tabindex="0"><span class="ubermenu-target-title ubermenu-target-text">Shop</span><i class="ubermenu-sub-indicator fas fa-angle-down"></i><span class="ubermenu-sub-indicator-close"><i class="fas fa-times"></i></span></a>
+                                <ul class="ubermenu-submenu ubermenu-submenu-id-1627 ubermenu-submenu-type-auto ubermenu-submenu-type-mega ubermenu-submenu-drop ubermenu-submenu-align-full_width">
+                                  <li class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-custom ubermenu-item-232803 ubermenu-item-auto ubermenu-item-header ubermenu-item-level-1 ubermenu-column ubermenu-column-auto"><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="https://vetiqpetcare.com/shop-online#shop-online"><span class="ubermenu-target-title ubermenu-target-text">Shop Online</span></a></li>
+                                  <li class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-custom ubermenu-item-232801 ubermenu-item-auto ubermenu-item-header ubermenu-item-level-1 ubermenu-column ubermenu-column-auto"><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="https://vetiqpetcare.com/shop-online/#fill-a-prescription"><span class="ubermenu-target-title ubermenu-target-text">Fill a Prescription</span></a></li>
+                                </ul>
+                              </li>
+                              <li class="piq-menu-hider piq-location ubermenu-item ubermenu-item-type-custom ubermenu-item-object-custom ubermenu-item-10087 ubermenu-item-level-0 ubermenu-column ubermenu-column-auto"><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="https://vetiqpetcare.com/find-a-location/" tabindex="0"><span class="ubermenu-target-title ubermenu-target-text"><img src="https://mk0vetiqpetcaredngye.kinstacdn.com/wp-content/uploads/2020/03/FD023CE8-0671-4165-AB30-923296F3D8A2.png"><span style="color: white!important;">Find a Location</span></span></a></li>
+                              <li class="piq-menu-hider piq-request-mobile piq-opener ubermenu-item ubermenu-item-type-custom ubermenu-item-object-custom ubermenu-item-10088 ubermenu-item-level-0 ubermenu-column ubermenu-column-auto pum-trigger" style="cursor: pointer;"><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="https://vetiqpetcare.com/request-pet-records" tabindex="0"><span class="ubermenu-target-title ubermenu-target-text"><img src="https://mk0vetiqpetcaredngye.kinstacdn.com/wp-content/uploads/2020/03/pet1.png">Request Pet Records</span></a></li>
+                              <li class="piq-menu-hider piq-help-mobile ubermenu-item ubermenu-item-type-custom ubermenu-item-object-custom ubermenu-item-10089 ubermenu-item-level-0 ubermenu-column ubermenu-column-auto"><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="https://vetiqpetcare.com/help-center/" tabindex="0"><span class="ubermenu-target-title ubermenu-target-text"><img src="https://mk0vetiqpetcaredngye.kinstacdn.com/wp-content/uploads/2020/03/help1.png">Help Center</span></a></li>
+                              <li class="piq-menu-hider piq-contact-mobile ubermenu-item ubermenu-item-type-custom ubermenu-item-object-custom ubermenu-item-10090 ubermenu-item-level-0 ubermenu-column ubermenu-column-auto"><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="https://vetiqpetcare.com/contact-us/" tabindex="0"><span class="ubermenu-target-title ubermenu-target-text"><img src="https://mk0vetiqpetcaredngye.kinstacdn.com/wp-content/uploads/2020/03/contact1.png">Contact Us</span></a></li>
+                            </ul>
+                          </nav>
+    
+                          <!-- End UberMenu -->
+                        </td>
+                        <td class="piq-menucenter"><a href="https://vetiqpetcare.com/"><img src="https://mk0vetiqpetcaredngye.kinstacdn.com/wp-content/uploads/2020/05/logo-vetiq-shadow-bg@2x.png"></a></td>
+                        <td class="piq-menuside">
+                          <img class="piq-searchead pum-trigger" src="https://mk0vetiqpetcaredngye.kinstacdn.com/wp-content/uploads/2020/03/mag1.png" alt="" style="cursor: pointer;">
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+     <!-- .et_pb_code -->
+            </div>
+     <!-- .et_pb_column -->
+          </div>
+     <!-- .et_pb_row -->
+        </div>
+     <!-- .et_pb_section -->
+        <div class="et_pb_with_border et_pb_section et_pb_section_3_tb_header piq-location-holder et_pb_with_background et_section_regular">
+          <div class="et_pb_row et_pb_row_3_tb_header">
+            <div class="et_pb_column et_pb_column_4_4 et_pb_column_4_tb_header  et_pb_css_mix_blend_mode_passthrough et-last-child">
+              <div id="mobile-my-clinic-selector" class="et_pb_module et_pb_code et_pb_code_2_tb_header">
+                <div class="my-clinic-selector-container mobile">
+                  <div class="my-clinic-header-link no-selected-clinic"><a href="https://vetiqpetcare.com/find-a-location">
+                      <div class="my-clinic-header-link-content"><img class="my-clinic-location-icon" src="data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMjAwIDIwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayI+CiAgICA8Y2xpcFBhdGggaWQ9ImEiPgogICAgICAgIDxwYXRoIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0ibTIzMjUuMzIgNjQ3Ljg0di01MS42aC0xNy4yMnYtMjAuNWgxNy4yMnYtMTYuMTZjMC0xNy41NSAxMC42OS0yNy4xIDI2LjI5LTI3LjFhMTQzLjg3IDE0My44NyAwIDAgMSAxNS43Ny44MXYxOC4zNGgtMTAuODNjLTguNDggMC0xMC4xMiA0LTEwLjEyIDEwdjE0LjEzaDE5LjE1bC0yLjYzIDIwLjVoLTE2LjUydjUxLjYiLz4KICAgIDwvY2xpcFBhdGg+CiAgICA8cGF0aCBkPSJtMTAwIDEuNzZhNzguODIgNzguODIgMCAwIDAgLTc4LjcyIDc4LjcyYzAgMjguMjUgMjMuMzMgNjUuNzUgNzEuMyAxMTQuNjRhMTAuMzggMTAuMzggMCAwIDAgMTQuODQgMGM0OC00OC44OSA3MS4zLTg2LjM5IDcxLjMtMTE0LjY0YTc4LjgxIDc4LjgxIDAgMCAwIC03OC43Mi03OC43MnptMCAxNzEuMTFjLTQ3LjY0LTUwLjE1LTU3LjkyLTc3Ljg3LTU3LjkyLTkyLjM5YTU3LjkyIDU3LjkyIDAgMCAxIDExNS44NCAwYzAgMTQuNTItMTAuMjggNDIuMjQtNTcuOTIgOTIuMzl6IiBmaWxsPSIjZjE2NjIzIi8+CiAgICA8Y2lyY2xlIGN4PSIxMDAiIGN5PSI4Mi40MyIgZmlsbD0iI2YxNjYyMyIgcj0iMjUuNzEiLz4KICAgIDxwYXRoIGQ9Im0yMzI1LjMyIDY0Ny44NHYtNTEuNmgtMTcuMjJ2LTIwLjVoMTcuMjJ2LTE2LjE2YzAtMTcuNTUgMTAuNjktMjcuMSAyNi4yOS0yNy4xYTE0My44NyAxNDMuODcgMCAwIDEgMTUuNzcuODF2MTguMzRoLTEwLjgzYy04LjQ4IDAtMTAuMTIgNC0xMC4xMiAxMHYxNC4xM2gxOS4xNWwtMi42MyAyMC41aC0xNi41MnY1MS42IiBmaWxsPSIjZmZmIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiLz4KICAgIDxnIGNsaXAtcGF0aD0idXJsKCNhKSI+CiAgICAgICAgPHBhdGggZD0ibS00NjMwLjk5LTM5ODguODZoOTUxNC44NXYzMDAzMS4yM2gtOTUxNC44NXoiIGZpbGw9IiNmZmYiLz4KICAgIDwvZz4KPC9zdmc+"><span style="display: inline-block; padding-right: 5px;">Find a Location Near You</span>
+                        <div class="my-clinic-expand-arrow"><svg viewBox="0 0 13.18 7.65">
+                            <path d="M0 1.06A1.06 1.06 0 011.8.31L6.59 5.1 11.38.31a1.07 1.07 0 011.5 0 1.06 1.06 0 010 1.49L7.34 7.34a1.06 1.06 0 01-.75.31 1 1 0 01-.74-.31L.31 1.8A1 1 0 010 1.06z" fill="#4779b3"></path>
+                          </svg></div>
+                      </div>
+                    </a></div>
+                </div>
+              </div>
+     <!-- .et_pb_code -->
+            </div>
+     <!-- .et_pb_column -->
+          </div>
+     <!-- .et_pb_row -->
+        </div>
+     <!-- .et_pb_section -->
+        <div id="main-nav" class="et_pb_section et_pb_section_4_tb_header et_pb_with_background et_section_regular">
+          <div class="et_pb_row et_pb_row_4_tb_header et_pb_row--with-menu et_pb_row_3-4_1-4" style="z-index: 3;">
+            <div class="et_pb_column et_pb_column_3_4 et_pb_column_5_tb_header  et_pb_css_mix_blend_mode_passthrough et_pb_column--with-menu">
+              <div class="et_pb_with_border et_pb_module et_pb_menu et_pb_menu_1_tb_header piq-nav-text et_pb_bg_layout_light  et_pb_text_align_center et_dropdown_animation_fade et_pb_menu--with-logo et_pb_menu--style-left_aligned">
+                <div class="et_pb_menu_inner_container clearfix">
+                  <div class="et_pb_menu__logo-wrap">
+                    <div class="et_pb_menu__logo">
+                      <a href="https://vetiqpetcare.com/"><img src="https://mk0vetiqpetcaredngye.kinstacdn.com/wp-content/uploads/2020/05/logo-vetiq-shadow-bg@2x.png" alt="" srcset="https://mk0vetiqpetcaredngye.kinstacdn.com/wp-content/uploads/2020/05/logo-vetiq-shadow-bg@2x.png 326w, https://mk0vetiqpetcaredngye.kinstacdn.com/wp-content/uploads/2020/05/logo-vetiq-shadow-bg@2x-300x175.png 300w" sizes="(max-width: 326px) 100vw, 326px"></a>
+                    </div>
+                  </div>
+                  <div class="et_pb_menu__wrap">
+                    <div class="et_pb_menu__menu">
+                      <nav class="et-menu-nav">
+                        <ul id="menu-main-nav-staging" class="et-menu nav">
+                          <li class="piq-menu-hider et_pb_menu_page_id-home menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-9674 current_page_item menu-item-233659"><a href="https://vetiqpetcare.com/" aria-current="page">Home</a></li>
+                          <li class="reduce-divider et_pb_menu_page_id-551 menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-551"><a href="https://vetiqpetcare.com/services-pricing/">Services &amp; Pricing</a>
+                            <ul class="sub-menu">
+                              <li class="et_pb_menu_page_id-228606 menu-item menu-item-type-post_type menu-item-object-page menu-item-233361"><a href="https://vetiqpetcare.com/services-pricing/">Individual Services</a></li>
+                              <li class="et_pb_menu_page_id-233928 menu-item menu-item-type-post_type menu-item-object-page menu-item-234060"><a href="https://vetiqpetcare.com/services-pricing/service-packages/">Service Packages</a></li>
+                              <li class="et_pb_menu_page_id-228865 menu-item menu-item-type-post_type menu-item-object-page menu-item-232796"><a href="https://vetiqpetcare.com/services-pricing/current-promotions/">Current Promotions</a></li>
+                              <li class="et_pb_menu_page_id-236361 menu-item menu-item-type-post_type menu-item-object-page menu-item-236392"><a href="https://vetiqpetcare.com/petiq-veterinary-help-line/">Veterinary Help Line</a></li>
+                            </ul>
+                          </li>
+                          <li class="et_pb_menu_page_id-1329 menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1329"><a href="https://vetiqpetcare.com/about-us/">About Us</a>
+                            <ul class="sub-menu">
+                              <li class="et_pb_menu_page_id-9973 menu-item menu-item-type-post_type menu-item-object-page menu-item-232797"><a href="https://vetiqpetcare.com/about-us/">Overview</a></li>
+                              <li class="et_pb_menu_page_id-228869 menu-item menu-item-type-post_type menu-item-object-page menu-item-232798"><a href="https://vetiqpetcare.com/about-us/standards-care/">Our Standards of Care</a></li>
+                              <li class="et_pb_menu_page_id-236351 menu-item menu-item-type-custom menu-item-object-custom menu-item-236351"><a href="https://petiq.com/careers/career-opportunities/">Careers</a></li>
+                            </ul>
+                          </li>
+                          <li class="reduce-divider remove-bullet et_pb_menu_page_id-552 menu-item menu-item-type-custom menu-item-object-custom menu-item-552"><a href="https://vetiqpetcare.com/pet-articles/">Pet Articles</a></li>
+                          <li class="et_pb_menu_page_id-1627 menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1627"><a href="https://vetiqpetcare.com/shop-online/">Shop</a>
+                            <ul class="sub-menu">
+                              <li class="et_pb_menu_page_id-232803 menu-item menu-item-type-custom menu-item-object-custom menu-item-232803"><a href="https://vetiqpetcare.com/shop-online#shop-online">Shop Online</a></li>
+                              <li class="et_pb_menu_page_id-232801 menu-item menu-item-type-custom menu-item-object-custom menu-item-232801"><a href="https://vetiqpetcare.com/shop-online/#fill-a-prescription">Fill a Prescription</a></li>
+                            </ul>
+                          </li>
+                          <li class="piq-menu-hider piq-location et_pb_menu_page_id-10087 menu-item menu-item-type-custom menu-item-object-custom menu-item-10087"><a href="https://vetiqpetcare.com/find-a-location/"><img src="https://mk0vetiqpetcaredngye.kinstacdn.com/wp-content/uploads/2020/03/FD023CE8-0671-4165-AB30-923296F3D8A2.png"><span style="color: white!important;">Find a Location</span></a></li>
+                          <li class="piq-menu-hider piq-request-mobile piq-opener et_pb_menu_page_id-10088 menu-item menu-item-type-custom menu-item-object-custom menu-item-10088 pum-trigger" style="cursor: pointer;"><a href="https://vetiqpetcare.com/request-pet-records"><img src="https://mk0vetiqpetcaredngye.kinstacdn.com/wp-content/uploads/2020/03/pet1.png">Request Pet Records</a></li>
+                          <li class="piq-menu-hider piq-help-mobile et_pb_menu_page_id-10089 menu-item menu-item-type-custom menu-item-object-custom menu-item-10089"><a href="https://vetiqpetcare.com/help-center/"><img src="https://mk0vetiqpetcaredngye.kinstacdn.com/wp-content/uploads/2020/03/help1.png">Help Center</a></li>
+                          <li class="piq-menu-hider piq-contact-mobile et_pb_menu_page_id-10090 menu-item menu-item-type-custom menu-item-object-custom menu-item-10090"><a href="https://vetiqpetcare.com/contact-us/"><img src="https://mk0vetiqpetcaredngye.kinstacdn.com/wp-content/uploads/2020/03/contact1.png">Contact Us</a></li>
+                        </ul>
+                      </nav>
+                    </div>
+                    <button type="button" class="et_pb_menu__icon et_pb_menu__search-button"></button>
+                    <div class="et_mobile_nav_menu">
+                      <a href="https://vetiqpetcare.com/#" class="mobile_nav closed">
+                        <span class="mobile_menu_bar"></span>
+                        <ul id="mobile_menu2" class="et_mobile_menu">
+                          <li class="piq-menu-hider et_pb_menu_page_id-home menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-9674 current_page_item menu-item-233659 et_first_mobile_item"><a href="https://vetiqpetcare.com/" aria-current="page">Home</a></li>
+                          <li class="reduce-divider et_pb_menu_page_id-551 menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-551"><a href="https://vetiqpetcare.com/services-pricing/">Services &amp; Pricing</a>
+                            <ul class="sub-menu">
+                              <li class="et_pb_menu_page_id-228606 menu-item menu-item-type-post_type menu-item-object-page menu-item-233361"><a href="https://vetiqpetcare.com/services-pricing/">Individual Services</a></li>
+                              <li class="et_pb_menu_page_id-233928 menu-item menu-item-type-post_type menu-item-object-page menu-item-234060"><a href="https://vetiqpetcare.com/services-pricing/service-packages/">Service Packages</a></li>
+                              <li class="et_pb_menu_page_id-228865 menu-item menu-item-type-post_type menu-item-object-page menu-item-232796"><a href="https://vetiqpetcare.com/services-pricing/current-promotions/">Current Promotions</a></li>
+                              <li class="et_pb_menu_page_id-236361 menu-item menu-item-type-post_type menu-item-object-page menu-item-236392"><a href="https://vetiqpetcare.com/petiq-veterinary-help-line/">Veterinary Help Line</a></li>
+                            </ul>
+                          </li>
+                          <li class="et_pb_menu_page_id-1329 menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1329"><a href="https://vetiqpetcare.com/about-us/">About Us</a>
+                            <ul class="sub-menu">
+                              <li class="et_pb_menu_page_id-9973 menu-item menu-item-type-post_type menu-item-object-page menu-item-232797"><a href="https://vetiqpetcare.com/about-us/">Overview</a></li>
+                              <li class="et_pb_menu_page_id-228869 menu-item menu-item-type-post_type menu-item-object-page menu-item-232798"><a href="https://vetiqpetcare.com/about-us/standards-care/">Our Standards of Care</a></li>
+                              <li class="et_pb_menu_page_id-236351 menu-item menu-item-type-custom menu-item-object-custom menu-item-236351"><a href="https://petiq.com/careers/career-opportunities/">Careers</a></li>
+                            </ul>
+                          </li>
+                          <li class="reduce-divider remove-bullet et_pb_menu_page_id-552 menu-item menu-item-type-custom menu-item-object-custom menu-item-552"><a href="https://vetiqpetcare.com/pet-articles/">Pet Articles</a></li>
+                          <li class="et_pb_menu_page_id-1627 menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1627"><a href="https://vetiqpetcare.com/shop-online/">Shop</a>
+                            <ul class="sub-menu">
+                              <li class="et_pb_menu_page_id-232803 menu-item menu-item-type-custom menu-item-object-custom menu-item-232803"><a href="https://vetiqpetcare.com/shop-online#shop-online">Shop Online</a></li>
+                              <li class="et_pb_menu_page_id-232801 menu-item menu-item-type-custom menu-item-object-custom menu-item-232801"><a href="https://vetiqpetcare.com/shop-online/#fill-a-prescription">Fill a Prescription</a></li>
+                            </ul>
+                          </li>
+                          <li class="piq-menu-hider piq-location et_pb_menu_page_id-10087 menu-item menu-item-type-custom menu-item-object-custom menu-item-10087"><a href="https://vetiqpetcare.com/find-a-location/"><img src="https://mk0vetiqpetcaredngye.kinstacdn.com/wp-content/uploads/2020/03/FD023CE8-0671-4165-AB30-923296F3D8A2.png"><span style="color: white!important;">Find a Location</span></a></li>
+                          <li class="piq-menu-hider piq-request-mobile piq-opener et_pb_menu_page_id-10088 menu-item menu-item-type-custom menu-item-object-custom menu-item-10088 pum-trigger" style="cursor: pointer;"><a href="https://vetiqpetcare.com/request-pet-records"><img src="https://mk0vetiqpetcaredngye.kinstacdn.com/wp-content/uploads/2020/03/pet1.png">Request Pet Records</a></li>
+                          <li class="piq-menu-hider piq-help-mobile et_pb_menu_page_id-10089 menu-item menu-item-type-custom menu-item-object-custom menu-item-10089"><a href="https://vetiqpetcare.com/help-center/"><img src="https://mk0vetiqpetcaredngye.kinstacdn.com/wp-content/uploads/2020/03/help1.png">Help Center</a></li>
+                          <li class="piq-menu-hider piq-contact-mobile et_pb_menu_page_id-10090 menu-item menu-item-type-custom menu-item-object-custom menu-item-10090"><a href="https://vetiqpetcare.com/contact-us/"><img src="https://mk0vetiqpetcaredngye.kinstacdn.com/wp-content/uploads/2020/03/contact1.png">Contact Us</a></li>
+                        </ul>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="et_pb_menu__search-container et_pb_menu__search-container--disabled">
+                    <div class="et_pb_menu__search">
+                      <form role="search" method="get" class="et_pb_menu__search-form" action="https://vetiqpetcare.com/">
+                        <input type="search" class="et_pb_menu__search-input" placeholder="Search …" name="s" title="Search for:">
+                      </form>
+                      <button type="button" class="et_pb_menu__icon et_pb_menu__close-search-button"></button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+     <!-- .et_pb_column -->
+            <div class="et_pb_column et_pb_column_1_4 et_pb_column_6_tb_header  et_pb_css_mix_blend_mode_passthrough et-last-child">
+              <div class="et_pb_button_module_wrapper et_pb_button_0_tb_header_wrapper et_pb_button_alignment_center et_pb_module ">
+                <a class="et_pb_button et_pb_button_0_tb_header piq-loc-btn-head piq-button-global et_pb_bg_layout_dark" href="https://vetiqpetcare.com/find-a-location/">Find a Location</a>
+              </div>
+            </div>
+     <!-- .et_pb_column -->
+          </div>
+     <!-- .et_pb_row -->
+        </div>
+     <!-- .et_pb_section -->
+        <div class="et_pb_section et_pb_section_5_tb_header et_pb_with_background et_section_regular">
+          <div class="et_pb_row et_pb_row_5_tb_header">
+            <div class="et_pb_column et_pb_column_4_4 et_pb_column_7_tb_header  et_pb_css_mix_blend_mode_passthrough et-last-child">
+              <div class="et_pb_module et_pb_text et_pb_text_1_tb_header  et_pb_text_align_center et_pb_bg_layout_light">
+                <div class="et_pb_text_inner">
+                  <ul class="piq-nav">
+                    <li class="piq-button-dropdown">
+                      <a href="javascript:void(0)" class="piq-dropdown-toggle">
+                        <p></p>
+                        <div style="display: flex; justify-content: center; align-items: center;"><img src="https://mk0vetiqpetcaredngye.kinstacdn.com/wp-content/uploads/2020/02/icon-offer.png" alt="offer" style="margin-right: 1em;"><strong>Current Promotions</strong><img src="https://mk0vetiqpetcaredngye.kinstacdn.com/wp-content/uploads/2020/02/arrow-down-white.png" alt="expand" style="margin-left: 1em;"></div>
+                      </a>
+                      <p><a href="javascript:void(0)" class="piq-dropdown-toggle"> </a></p>
+                      <ul class="piq-dropdown-menu">
+                        <li class="piq-dropdown-bg">
+                          <img src="https://mk0vetiqpetcaredngye.kinstacdn.com/wp-content/uploads/2020/03/arrow.png" alt="" class="wp-image-10163 aligncenter size-full piq-arrow">
+    
+                          <!--&#091;showmodule id="233774"&#093;-->
+    
+                          <!--
+    <p><a href="https://vetiqpetcare.com/current-promotions/" class="piq-carousel-link-more">View All Current Promotions <img loading="lazy" src="https://vetiqpetcare.com//wp-content/uploads/2020/03/arrow-right.svg" width="12" height="12" alt="" class="wp-image-10263 alignnone size-full piq-icon-arrow-right" srcset="https://mk0vetiqpetcaredngye.kinstacdn.com/wp-content/uploads//2020/03/arrow-right.svg 150w, https://mk0vetiqpetcaredngye.kinstacdn.com/wp-content/uploads//2020/03/arrow-right.svg 300w, https://mk0vetiqpetcaredngye.kinstacdn.com/wp-content/uploads//2020/03/arrow-right.svg 1024w, https://mk0vetiqpetcaredngye.kinstacdn.com/wp-content/uploads//2020/03/arrow-right.svg 1536w, https://mk0vetiqpetcaredngye.kinstacdn.com/wp-content/uploads//2020/03/arrow-right.svg 2048w, https://mk0vetiqpetcaredngye.kinstacdn.com/wp-content/uploads//2020/03/arrow-right.svg 40w" sizes="(max-width: 12px) 100vw, 12px" /></a></p>
+    -->
+                          <p></p>
+                          <h4 style="text-align:center">Please check back soon for savings and promotions</h4>
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+     <!-- .et_pb_text -->
+            </div>
+     <!-- .et_pb_column -->
+          </div>
+     <!-- .et_pb_row -->
+        </div>
+     <!-- .et_pb_section -->
+      </div>
+    <!-- .et_builder_inner_content -->
+    </header>
+  </div>
 {/template}
