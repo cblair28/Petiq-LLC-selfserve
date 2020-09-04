@@ -5,8 +5,8 @@ import { AccessibilityHelpers } from 'js/components/Util/Accessibility.js';
 const ah = new AccessibilityHelpers();
 
 OnReady(() => {
-  const mobileToggle = document.getElementById('mobile-toggle');
-  const mobileMenu = document.getElementById('mobile-menu');
+  const mobileToggle = document.querySelector('.ubermenu-responsive-toggle');
+  const mobileMenu = document.getElementById('ubermenu-main-17');
 
   mobileToggle.addEventListener('click', () => {
     mobileMenu.classList.toggle('is-active');

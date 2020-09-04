@@ -1,5 +1,137 @@
 {
   "parameters": [
-
+    {
+      "sink": "petRecordsLink",
+      "name": "PetRecordsLink",
+      "type": "TEXT",
+      "required": false,
+      "default": [ { "valueStr": "https://vetiqpetcare.com/" } ]
+    },
+    {
+      "sink": "helpCenterLink",
+      "name": "Help Center Link",
+      "type": "URL",
+      "required": true,
+      "default": [ { "valueStr": "https://vetiqpetcare.com/help-center/" } ]
+    },
+    {
+      "sink": "contactUsLink",
+      "name": "Contact Us Link",
+      "type": "URL",
+      "required": true,
+      "default": [ { "valueStr": "https://vetiqpetcare.com/contact-us/" } ]
+    },
+    {
+      "sink": "storeLocatorLink",
+      "name": "Store Locator Link",
+      "type": "URL",
+      "required": true,
+      "default": [ { "valueStr": "https://vetiqpetcare.com/find-a-location" } ]
+    },
+    {
+      "sink": "servicesAndPricingLink",
+      "name": "Services and Pricing Link",
+      "type": "URL",
+      "required": true,
+      "default": [ { "valueStr": "https://vetiqpetcare.com/services-pricing/" } ]
+    },
+    {
+      "sink": "individualServices",
+      "name": "Individual Services",
+      "type": "URL",
+      "required": false,
+      "default": [ { "valueStr": "https://vetiqpetcare.com/services-pricing/" } ]
+    },
+    {
+      "sink": "servicePackages",
+      "name": "Service Packages",
+      "type": "URL",
+      "required": false,
+      "default": [
+        {
+          "valueStr": "https://vetiqpetcare.com/services-pricing/service-packages/"
+        }
+      ]
+    },
+    {
+      "sink": "currentPromotions",
+      "name": "Current Promotions",
+      "type": "URL",
+      "required": false,
+      "default": [
+        {
+          "valueStr": "https://vetiqpetcare.com/services-pricing/current-promotions/"
+        }
+      ]
+    },
+    {
+      "sink": "veterinaryHelpLine",
+      "name": "Veterinary Help Line",
+      "type": "URL",
+      "required": false,
+      "default": [
+        { "valueStr": "https://vetiqpetcare.com/petiq-veterinary-help-line/" }
+      ]
+    },
+    {
+      "sink": "aboutUs",
+      "name": "About Us",
+      "type": "URL",
+      "required": true,
+      "default": [ { "valueStr": "https://vetiqpetcare.com/about-us/" } ]
+    },
+    {
+      "sink": "standardsOfCareLink",
+      "name": "Standards of Care Link",
+      "type": "URL",
+      "required": false,
+      "default": [ { "valueStr": "https://vetiqpetcare.com/about-us/standards-care/" } ]
+    },
+    {
+      "sink": "careersLink",
+      "name": "Careers Link",
+      "type": "URL",
+      "required": false,
+      "default": [ { "valueStr": "https://petiq.com/careers/career-opportunities/" } ]
+    },
+    {
+      "sink": "petArticlesLink",
+      "name": "Pet Articles Link",
+      "type": "URL",
+      "required": true,
+      "default": [ { "valueStr": "https://vetiqpetcare.com/pet-articles/" } ]
+    },
+    {
+      "sink": "shopOnlineLink",
+      "name": "Shop Online Link",
+      "type": "URL",
+      "required": true,
+      "default": [ { "valueStr": "https://vetiqpetcare.com/shop-online#shop-online" } ]
+    },
+    {
+      "sink": "fillPrescriptionLink",
+      "name": "Fill Prescription Link",
+      "type": "URL",
+      "required": false,
+      "default": [
+        {
+          "valueStr": "https://vetiqpetcare.com/shop-online/#fill-a-prescription"
+        }
+      ]
+    },
+    {
+      "sink": "shopLink",
+      "name": "Shop Link",
+      "type": "URL",
+      "required": true,
+      "default": [ { "valueStr": "https://vetiqpetcare.com/shop-online/" } ]
+    },
+    {
+      "sink": "homeLink",
+      "name": "Home Link",
+      "type": "URL",
+      "required": true,
+      "default": [ { "valueStr": "https://vetiqpetcare.com/" } ]
+    }
   ]
 }

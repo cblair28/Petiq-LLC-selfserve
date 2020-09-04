@@ -1,8 +1,50 @@
 {
   "Header": {
-
+    "petRecordsLink": "https://vetiqpetcare.com/",
+    "helpCenterLink": "https://vetiqpetcare.com/help-center/",
+    "contactUsLink": "https://vetiqpetcare.com/contact-us/",
+    "storeLocatorLink": "https://vetiqpetcare.com/find-a-location",
+    "servicesAndPricingLink": "https://vetiqpetcare.com/services-pricing/",
+    "individualServices": "https://vetiqpetcare.com/services-pricing/",
+    "servicePackages": "https://vetiqpetcare.com/services-pricing/service-packages/",
+    "currentPromotions": "https://vetiqpetcare.com/services-pricing/current-promotions/",
+    "veterinaryHelpLine": "https://vetiqpetcare.com/petiq-veterinary-help-line/",
+    "aboutUs": "https://vetiqpetcare.com/about-us/",
+    "standardsOfCareLink": "https://vetiqpetcare.com/about-us/standards-care/",
+    "careersLink": "https://petiq.com/careers/career-opportunities/",
+    "petArticlesLink": "https://vetiqpetcare.com/pet-articles/",
+    "shopOnlineLink": "https://vetiqpetcare.com/shop-online/",
+    "fillPrescriptionLink": "https://vetiqpetcare.com/shop-online/#fill-a-prescription",
+    "shopLink": "https://vetiqpetcare.com/shop-online/",
+    "homeLink": "https://vetiqpetcare.com/"
   },
   "Footer": {
-
+    "storeLocatorLink": "https://vetiqpetcare.com/find-a-location/",
+    "petRecordsLink": "https://vetiqpetcare.com/",
+    "helpCenterLink": "https://vetiqpetcare.com/help-center/",
+    "contactUsLink": "https://vetiqpetcare.com/contact-us/",
+    "servicesAndPricingLink": "https://vetiqpetcare.com/services-pricing/",
+    "individualServicesLink": "https://vetiqpetcare.com/services-pricing/",
+    "servicePackagesLink": "https://vetiqpetcare.com/services-pricing/service-packages/",
+    "currentPromotionsLink": "https://vetiqpetcare.com/services-pricing/current-promotions/",
+    "aboutUsLink": "https://vetiqpetcare.com/about-us/",
+    "aboutUsOverviewLink": "https://vetiqpetcare.com/about-us/",
+    "standardsOfCareLink": "https://vetiqpetcare.com/about-us/standards-care/",
+    "careersLink": "https://petiq.com/careers/career-opportunities/",
+    "petArticlesLink": "https://vetiqpetcare.com/pet-articles/",
+    "featuredArticleLink": "https://vetiqpetcare.com/pet-articles/",
+    "pharmacyLink": "https://vetiqpetcare.com/pharmacy/",
+    "fillPrescriptionLink": "https://vetiqpetcare.com/pharmacy/#fill-a-prescription",
+    "shopLink": "https://vetiqpetcare.com/pharmacy#shop-online",
+    "facebookLink": "https://www.facebook.com/VETIQPetCare/",
+    "instagramLink": "https://www.instagram.com/vetiqpetcare/",
+    "linkedInLink": "https://www.linkedin.com/company/vetiq-petcare/",
+    "twitterLink": "https://twitter.com/VetIQpets",
+    "petiqLink": "https://petiq.com/",
+    "vipLink": "https://www.vippetcare.com/",
+    "petVetLink": "https://petvet.vippetcare.com/",
+    "homeLink": "https://vetiqpetcare.com/",
+    "privacyPolicyLink": "https://vetiqpetcare.com/privacy-policy/",
+    "tosLink": "https://vetiqpetcare.com/terms-of-service/"
   }
 }

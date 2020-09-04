@@ -4,11 +4,11 @@
 // So you'll have to provide a button radius here if you want to set any other defaults.
 {
   "designDefaults": {
-  //   "colors": {
-  //     "primary": null, // hex color as STRING, e.g. "#ffffff"
-  //     "secondary": null, // hex color as STRING, e.g. "#ffffff"
-  //     "background": null // hex color as STRING, e.g. "#ffffff"
-  //   },
+    "colors": {
+      "primary": "#f16623", // hex color as STRING, e.g. "#ffffff"
+      "secondary": "#4779b3", // hex color as STRING, e.g. "#ffffff"
+      "background": null // hex color as STRING, e.g. "#ffffff"
+    }
   //   "headerFont": {
   //     "fontFamily": null, // font name available in SSP as STRING, e.g. "Cabin"
   //     "fontWeight": null, // font weight as NUMBER, e.g. 400
